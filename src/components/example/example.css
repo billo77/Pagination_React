@@ -1,0 +1,35 @@
+html,
+body {
+	margin: 0;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 1.2em;
+}
+#data {
+	color: rgb(12, 137, 148);
+	list-style: none;
+	display: flex;
+	margin-left: 70px;
+	font-size: 30px;
+	font-weight: 900;
+	text-transform: uppercase;
+	justify-content: space-around;
+	width: 250px;
+}
+#page-numbers {
+	list-style: none;
+	font-weight: 900;
+	display: flex;
+}
+#page-numbers > li {
+	margin-right: 0.7em;
+	color: blue;
+	user-select: none;
+	cursor: pointer;
+	border: 2px solid gray;
+	border-radius: 50%;
+	padding: 2px 12px;
+}
+#page-numbers > li:hover {
+	background: rgb(35, 110, 69);
+	color: white;
+}
